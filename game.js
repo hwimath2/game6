@@ -112,7 +112,7 @@ class Enemy {
     this.y      = -this.h;
     this.type   = type;       // 1 또는 2
     this.health = type;       // 체력: 1 or 2
-    this.baseSp = 1.5;          // 기본 속도
+    this.baseSp = 1;          // 기본 속도
   }
   move(now) {
     const elapsed = (now - startTime) / 1000;
