@@ -26,8 +26,8 @@ canvas.height = 600;
 
 // --- 3) 상수 정의 ---
 const PLAYER_SIZE   = 130;
-const ENEMY_SIZE    = 100;    // 적 크기
-const ITEM_SIZE     = 100;
+const ENEMY_SIZE    = 110;    // 적 크기
+const ITEM_SIZE     = 110;
 const ITEM_INTERVAL = 10000; // 10초마다 아이템
 const BASE_SHOT_INT = 500;   // 자동 발사 기본 간격(ms)
 const SPEED_FACTOR  = 0.02;  // 적 속도 증가 비율 (초당)
